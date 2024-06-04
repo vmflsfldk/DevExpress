@@ -5,12 +5,15 @@
 
 1. 속성 - Gridview - AllCellMerge - True 로 변경
 
-```csharp
+<pre>
+<code>
 GridView gridView = this.gridControl1.MainView as GridView;
 gridView.OptionsView.AllowCellMerge = true;
-
+</code>
+</pre>
 # 특정 셀 색상 변경
-
+<pre>
+<code>
 using System;
 using System.Drawing;
 using DevExpress.XtraGrid.Views.Grid;
@@ -46,4 +49,5 @@ namespace YourNamespace
         }
     }
 }
-
+</code>
+</pre>
