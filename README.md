@@ -6,7 +6,7 @@
 1. 속성 - Gridview - AllCellMerge - True 로 변경
 
 '''C#
-2. GridView gridView = this.gridControl1.MainView as GridView;
+GridView gridView = this.gridControl1.MainView as GridView;
    gridView.OptionsView.AllowCellMerge = true;
 '''
    둘 중 하나 선택 하여 사용
