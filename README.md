@@ -8,5 +8,5 @@
 ```csharp
 GridView gridView = this.gridControl1.MainView as GridView;
 gridView.OptionsView.AllowCellMerge = true;
-
+'''
 
